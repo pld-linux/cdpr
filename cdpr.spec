@@ -34,6 +34,7 @@ dekodowanie pakietów Cisco Discovery Protocol (CDP).
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 install -D cdpr $RPM_BUILD_ROOT%{_sbindir}/cdpr
 
 %clean
