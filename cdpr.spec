@@ -1,12 +1,12 @@
 Summary:	Cisco Discovery Protocol Reporter
 Summary(pl):	Cisco Discovery Protocol Reporter
 Name:		cdpr
-Version:	1.0.7
+Version:	2.0.0
 Release:	1
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://www.monkeymental.com/mmfiles/%{name}-%{version}.tgz
-# Source0-md5:	d740a5e0fe5fad43e2b5454c392ae108
+Source0:	http://www.monkeymental.com/mmfiles/%{name}-%{version}.tar.gz
+# Source0-md5:	22d9bca09fb8188aa2b97640f0120343
 URL:		http://www.monkeymental.com/nuke/
 BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -31,7 +31,7 @@ dekodowanie pakietów Cisco Discovery Protocol (CDP).
 %setup -q
 
 %build
-%{__cc} %{rpmcflags} %{rpmldflags} -o cdpr cdpr.c -Wall -lpcap
+%{__cc} %{rpmcflags} %{rpmldflags} -o cdpr cdpr.c cdprs.c conffile.c -Wall -lpcap
 
 %install
 rm -rf $RPM_BUILD_ROOT
