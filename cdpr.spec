@@ -1,12 +1,15 @@
+# TODO:
+# - prepare subpackage with cdp server
+#
 Summary:	Cisco Discovery Protocol Reporter
 Summary(pl):	Cisco Discovery Protocol Reporter
 Name:		cdpr
-Version:	2.0.0
-Release:	2
+Version:	2.2.0
+Release:	0.1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.monkeymental.com/mmfiles/%{name}-%{version}.tar.gz
-# Source0-md5:	22d9bca09fb8188aa2b97640f0120343
+# Source0-md5:	023b8bd6d399204a66ad728f2aa11ca3
 URL:		http://www.monkeymental.com/nuke/
 BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -43,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc README* cdpr.conf cdprs
 %attr(754,root,root) %{_sbindir}/cdpr
