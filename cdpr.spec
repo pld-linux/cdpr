@@ -2,7 +2,7 @@
 # - prepare subpackage with cdp server
 #
 Summary:	Cisco Discovery Protocol Reporter
-Summary(pl):	Cisco Discovery Protocol Reporter
+Summary(pl):	Cisco Discovery Protocol Reporter - narzêdzie do ¶ledzenia CDP
 Name:		cdpr
 Version:	2.2.0
 Release:	2
