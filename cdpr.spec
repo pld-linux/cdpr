@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.monkeymental.com/mmfiles/%{name}-%{version}.tgz
+# Source0-md5:	d740a5e0fe5fad43e2b5454c392ae108
 URL:		http://www.monkeymental.com/nuke/
 BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
