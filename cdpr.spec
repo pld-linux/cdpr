@@ -5,7 +5,7 @@ Summary:	Cisco Discovery Protocol Reporter
 Summary(pl):	Cisco Discovery Protocol Reporter - narzêdzie do ¶ledzenia CDP
 Name:		cdpr
 Version:	2.2.0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.monkeymental.com/mmfiles/%{name}-%{version}.tar.gz
