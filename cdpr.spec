@@ -2,7 +2,7 @@
 # - prepare subpackage with cdp server
 #
 Summary:	Cisco Discovery Protocol Reporter
-Summary(pl):	Cisco Discovery Protocol Reporter - narzêdzie do ¶ledzenia CDP
+Summary(pl.UTF-8):   Cisco Discovery Protocol Reporter - narzÄ™dzie do Å›ledzenia CDP
 Name:		cdpr
 Version:	2.2.0
 Release:	3
@@ -22,13 +22,13 @@ help network/system administrators find out about the equipment that a
 machine is connected to. This is done by capturing and decoding a
 Cisco Discovery Protocol (CDP) packet.
 
-%description -l pl
+%description -l pl.UTF-8
 cdpr (Cisco Discovery Protocol Reporter) pokazuje stan switcha i
-portu, do którego maszyna jest pod³±czona, je¿eli obs³uguje ona CDP.
-Mo¿e tak¿e dekodowaæ ca³y pakiet CDP. cdpr zosta³ napisany aby pomóc
-administratorom systemu/sieci dowiedzieæ siê do jakiego sprzêtu s±
-pod³±czone maszyny. Jest to robione poprzez przechwytywanie i
-dekodowanie pakietów Cisco Discovery Protocol (CDP).
+portu, do ktÃ³rego maszyna jest podÅ‚Ä…czona, jeÅ¼eli obsÅ‚uguje ona CDP.
+MoÅ¼e takÅ¼e dekodowaÄ‡ caÅ‚y pakiet CDP. cdpr zostaÅ‚ napisany aby pomÃ³c
+administratorom systemu/sieci dowiedzieÄ‡ siÄ™ do jakiego sprzÄ™tu sÄ…
+podÅ‚Ä…czone maszyny. Jest to robione poprzez przechwytywanie i
+dekodowanie pakietÃ³w Cisco Discovery Protocol (CDP).
 
 %prep
 %setup -q
