@@ -2,7 +2,7 @@
 # - prepare subpackage with cdp server
 #
 Summary:	Cisco Discovery Protocol Reporter
-Summary(pl.UTF-8):   Cisco Discovery Protocol Reporter - narzędzie do śledzenia CDP
+Summary(pl.UTF-8):	Cisco Discovery Protocol Reporter - narzędzie do śledzenia CDP
 Name:		cdpr
 Version:	2.2.0
 Release:	3
